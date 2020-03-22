@@ -1,0 +1,73 @@
+body{
+    background-image: url(th%202.jpeg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    background-blend-mode: soft-light;
+    
+}
+p,p1,p2,p3,p4,p5,p6{
+    color: aliceblue;
+    opacity: 1;
+    font-size: 2rem;
+}
+h,h1,h2,h3,h4,h5,h6{
+    color: aliceblue;
+    opacity: 1;
+    font-size: 4.5rem;
+}
+/*webkit scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: darkgrey; 
+}
+/*webkit scrollbar*/
+
+/*Navbar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #404045;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: deepskyblue;
+}
+
+.active {
+  background-color: cornflowerblue;
+}
+/*NavBar*/
