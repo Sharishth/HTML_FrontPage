@@ -1,23 +1,38 @@
-body{
-    background-image: url(th%202.jpeg) ;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #464646;
-    background-blend-mode: soft-light;
-    
+body {
+  background-image: url(th%202.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  background-blend-mode: soft-light;
+
 }
-p,p1,p2,p3,p4,p5,p6{
-    color: aliceblue;
-    opacity: 1;
-    font-size: 2rem;
+
+p,
+p1,
+p2,
+p3,
+p4,
+p5,
+p6 {
+  color: aliceblue;
+  opacity: 1;
+  font-size: 2rem;
 }
-h,h1,h2,h3,h4,h5,h6{
-    color: aliceblue;
-    opacity: 1;
-    font-size: 4.5rem;
+
+h,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: aliceblue;
+  opacity: 1;
+  font-size: 4.5rem;
 }
+
 /*webkit scrollbar*/
 /* width */
 ::-webkit-scrollbar {
@@ -26,20 +41,21 @@ h,h1,h2,h3,h4,h5,h6{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: 0 0 5px grey; 
+  box-shadow: 0 0 5px grey;
   border-radius: 10px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: grey; 
+  background: grey;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: darkgrey; 
+  background: darkgrey;
 }
+
 /*webkit scrollbar*/
 
 /*Navbar*/
@@ -70,10 +86,11 @@ li a:hover:not(.active) {
 .active {
   background-color: cornflowerblue;
 }
+
 /*NavBar*/
 
-.card{
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 17%;
   border-radius: 5px;
@@ -81,16 +98,17 @@ li a:hover:not(.active) {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-img{
+img {
   border-radius: 5px 5px 0 0;
 }
 
-.container{
+.container {
   padding: 2px 16px;
 }
-p1.card{
+
+p1.card {
   size: 0.5rem;
 }
