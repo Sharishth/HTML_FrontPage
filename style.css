@@ -107,6 +107,32 @@ img {
 
 .container {
   padding: 2px 16px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  
+}
+.sub-container {
+  color: #404045;
+  background-color: #404045;
+}
+
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container div {
+  float: left;
+  width: 180px;
+  height: 160px;
+}
+
+#box2 {
+  background-color: #000000;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 p1.card {
