@@ -1,0 +1,123 @@
+/*webkit scrollbar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: darkgrey;
+  }
+  
+  /*webkit scrollbar*/
+body {
+    background-image: url(th%202.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    background-blend-mode: soft-light;  
+}
+.card {
+    background-color: white;
+    border-radius: 10px;
+    object-position: 50 50;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    padding: 1rem;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+  }
+  .card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+  .img-center-div {
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .avtaar-1{
+    height: 225px;
+    width: 225px;
+  }
+  
+  .ul-custom-1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-position: inside;
+  }
+  .li-custom-1 {
+    float: left;
+  }
+  
+  .li-custom-1 a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  
+  .custom-nav-centered a{
+    display: inline-block;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    left: 50%;
+    transform: translate(0%,0%);
+    text-align: center;
+}
+
+/*Navbar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #404045;
+  }
+
+
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: deepskyblue;
+  }
+  
+  .active {
+    background-color: cornflowerblue;
+  }
+  
+  /*NavBar*/
