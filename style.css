@@ -94,7 +94,7 @@ li a:hover:not(.active) {
   transition: 0.3s;
   width: 17%;
   border-radius: 5px;
-  background-color: #404045;
+  background-color: #5252d8;
 }
 
 .card:hover {
@@ -109,8 +109,9 @@ img {
   padding: 2px 16px;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  
+
 }
+
 .sub-container {
   color: #404045;
   background-color: #404045;

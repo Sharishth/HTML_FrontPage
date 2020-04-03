@@ -95,9 +95,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #404045;
+    
   }
-
+.ul-navbg{
+    background-color: #404045;
+}
 
   
   li {
