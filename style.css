@@ -9,6 +9,26 @@ body {
 
 }
 
+
+code{
+  background: black;
+}
+div.transbox {
+margin: 30px;
+background-color: #000000;
+border: 1px solid white;
+border-radius:10px;
+opacity: 0.6;
+padding: 10px;
+}
+
+div.transbox p {
+margin: 5%;
+font-weight: bold;
+color: #000000;
+}
+
+
 p,
 p1,
 p2,
