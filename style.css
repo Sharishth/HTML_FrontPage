@@ -101,6 +101,7 @@ li a {
   border: solid white 1px;
   border-radius: 10px;
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 li a:hover:not(.active) {
