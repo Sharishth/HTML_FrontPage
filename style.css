@@ -84,7 +84,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #404045;
+  
+  
 }
 
 li {
@@ -95,8 +96,11 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 12px;
   text-decoration: none;
+  border: solid white 1px;
+  border-radius: 10px;
+  margin-left: 10px;
 }
 
 li a:hover:not(.active) {
