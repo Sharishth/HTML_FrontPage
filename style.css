@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 body {
   background-image: url(th%202.jpeg);
   background-position: center center;
@@ -10,22 +12,24 @@ body {
 }
 
 
-code{
+code {
   background: black;
+  font-family: 'Roboto Mono', monospace;
 }
+
 div.transbox {
-margin: 30px;
-background-color: #000000;
-border: 1px solid white;
-border-radius:10px;
-opacity: 0.6;
-padding: 10px;
+  margin: 30px;
+  background-color: #000000;
+  border: 1px solid white;
+  border-radius: 10px;
+  opacity: 0.6;
+  padding: 10px;
 }
 
 div.transbox p {
-margin: 5%;
-font-weight: bold;
-color: #000000;
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
 }
 
 
@@ -84,8 +88,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  
-  
+
+
 }
 
 li {
