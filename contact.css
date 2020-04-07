@@ -29,7 +29,8 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
-    background-blend-mode: soft-light;  
+    background-blend-mode: soft-light;
+    font-family: 'Roboto';  
 }
 .card {
     background-color: white;
@@ -102,24 +103,34 @@ ul {
 }
 
   
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: deepskyblue;
-  }
-  
-  .active {
-    background-color: cornflowerblue;
-  }
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  border: solid white 1px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  font-weight: bold;
+}
+
+li a:hover:not(.active) {
+  background-color: deepskyblue;
+  border: solid deepskyblue 1px;
+  color: white;
+}
+
+.active {
+  background-color: cornflowerblue;
+  border: solid cornflowerblue 1px;
+  color: white;
+}
   
   /*NavBar*/

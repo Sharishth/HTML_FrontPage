@@ -6,7 +6,7 @@ body {
   background-size: cover;
   background-color: #464646;
   background-blend-mode: soft-light;
-
+  font-family: 'Roboto';
 }
 
 
@@ -94,7 +94,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 10px 12px;
   text-decoration: none;
@@ -102,14 +102,20 @@ li a {
   border-radius: 10px;
   margin-left: 10px;
   margin-bottom: 10px;
+  background-color: white;
+  font-weight: bold;
 }
 
 li a:hover:not(.active) {
   background-color: deepskyblue;
+  border: solid deepskyblue 1px;
+  color: white;
 }
 
 .active {
   background-color: cornflowerblue;
+  border: solid cornflowerblue 1px;
+  color: white;
 }
 
 /*NavBar*/
